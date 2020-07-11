@@ -42,11 +42,6 @@
     text-align: center;
 }
 
-/*.city-section {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}*/
-
 .menuitem {
     height: 120px;
     text-align: center;
@@ -57,15 +52,15 @@
 .menuitem a {
     width: 100%;
     text-decoration: none;
-    color: #fafafa;
+    color:#589B81;
     height: 120px;
 }
 
 .menuitem a i {
     padding-top: 22px;
     display: block;
-    color: #fafafa;
-    font-size: 26px;
+    color: #589B81;
+    font-size: 40px;
 }
 
 .menuitem span {
@@ -74,15 +69,15 @@
     padding-top: 5px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 300;
     letter-spacing: 2px;
 }
 
 .ui-menu-color {
-    background-color: #DDEBE5;
+    /*background-color: #DDEBE5;*/
     text-shadow: 2px 1px black;
-    font-size: 14px;
+    font-size: 20px;
     padding: 0;
 }
 
