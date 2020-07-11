@@ -49,14 +49,23 @@
 
 .berlin-image {
     background: url("../images/berlin.png");
+    max-height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .barcelona-image {
     background: url("../images/barcelona.png");
+    max-height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .rome-image {
     background: url("../images/rome.png");
+    max-height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
