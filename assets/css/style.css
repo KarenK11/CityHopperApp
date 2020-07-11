@@ -42,32 +42,49 @@
     text-align: center;
 }
 
-.city-section {
+/*.city-section {
     padding-top: 100px;
     padding-bottom: 100px;
+}*/
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding-bottom: 0px;
+    
 }
 
-.berlin-image {
-    background: url("../images/berlin.png");
-    max-height: 700px;
-    background-size: cover;
-    background-repeat: no-repeat;
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fafafa;
+    height: 120px;
 }
 
-.barcelona-image {
-    background: url("../images/barcelona.png");
-    max-height: 700px;
-    background-size: cover;
-    background-repeat: no-repeat;
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
 }
 
-.rome-image {
-    background: url("../images/rome.png");
-    max-height: 700px;
-    background-size: cover;
-    background-repeat: no-repeat;
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
 }
 
+.ui-menu-color {
+    background-color: #DDEBE5;
+    text-shadow: 2px 1px black;
+    font-size: 14px;
+    padding: 0;
+}
 
 /*-------------------------------------Footer */
 
