@@ -1,3 +1,25 @@
+/*-------------------------------------Heading */
+
+.head-style {
+    background: url("../images/europecities.png");
+    max-height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 140px;
+    padding-bottom: 200px;
+}
+
+.head-side {
+    background-color: #DDEBE5;
+}
+
+.city-header {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 5px black;
+}
+
 /*-------------------------------------Footer */
 
 .footer-align {
