@@ -23,7 +23,7 @@
 /*-------------------------------------About */
 
 .about-head {
-    padding-left: 575px;
+    padding-left: 555px;
     padding-top: 50px;
 }
 
@@ -76,6 +76,16 @@
 
 .ui-menu-color {
     /*background-color: #DDEBE5;*/
+    text-shadow: 2px 1px black;
+    font-size: 20px;
+    padding: 0;
+}
+
+/*-------------------------------------City pages */
+
+.city-head {
+    padding-top: 50px;
+    text-align: center;
     text-shadow: 2px 1px black;
     font-size: 20px;
     padding: 0;
