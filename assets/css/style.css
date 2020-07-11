@@ -20,7 +20,48 @@
     text-shadow: 2px 5px black;
 }
 
+/*-------------------------------------About */
+
+.about-head {
+    padding-left: 575px;
+    padding-top: 50px;
+}
+
+.about-description {
+    padding-left: 340px;
+    padding-top: 25px;
+}
+
+#choice-align {
+    padding-left: 70px;
+}
+
+/*-------------------------------------Cities */
+
+.city {
+    text-align: center;
+}
+
+.city-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.berlin-image {
+    background: url("../images/berlin.png");
+}
+
+.barcelona-image {
+    background: url("../images/barcelona.png");
+}
+
+.rome-image {
+    background: url("../images/rome.png");
+}
+
+
 /*-------------------------------------Footer */
+
 
 .footer-align {
     text-align: center;
