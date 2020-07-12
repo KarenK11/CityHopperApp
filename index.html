@@ -12,7 +12,41 @@
     <script src="https://kit.fontawesome.com/a8bc976bea.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-------------------------------------------------------------------------------------Header-->
+
+<!-------------------------------------------------------------------------------------Nav-->
+
+<!-- Main Navbar for larger screen sizes -->
+    <nav class="navbar navbar-dark fixed-top navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="{{url_for('home')}}">VeggiePedia</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{url_for('home')}}">Home</a>
+                </li>
+                <!-- Nav-toggler for smaller screen sizes -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Browse recipes
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="{{url_for('view_recipe_category', selected_category = 'breakfast')}}">Breakfast</a>
+                        <a class="dropdown-item" href="{{url_for('view_recipe_category', selected_category = 'main')}}">Main</a>
+                        <a class="dropdown-item" href="{{url_for('view_recipe_category', selected_category = 'dessert')}}">Dessert</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{url_for('add_recipes')}}">Add Your Own Recipe</a>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+<!-------------------------------------------------------------------------------------Header-->
 
 		<div class="row">
 			<div class="col-xs-0 col-sm-0 col-md-3 col-lg-3 head-side">
