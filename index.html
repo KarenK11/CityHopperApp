@@ -30,16 +30,16 @@
                 <!-- Nav-toggler for smaller screen sizes -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Browse recipes
+                    Browse Cities
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="{{url_for('view_recipe_category', selected_category = 'breakfast')}}">Breakfast</a>
+                        <a class="dropdown-item" href="{{url_for('view_recipe_category', selected_category = 'breakfast')}}">Europe</a>
                         <a class="dropdown-item" href="{{url_for('view_recipe_category', selected_category = 'main')}}">Main</a>
                         <a class="dropdown-item" href="{{url_for('view_recipe_category', selected_category = 'dessert')}}">Dessert</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{url_for('add_recipes')}}">Add Your City</a>
+                    <a class="nav-link" href="{{url_for('add_recipes')}}">Add a City</a>
                 </li>
                 </ul>
             </div>
