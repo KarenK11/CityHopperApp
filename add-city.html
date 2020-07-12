@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="container">
+    <div class="page-title form-heading col-md-12">
+        <h1>Add a City</h1>
+        <h5>Use the form below to add your city!</h5>
+    </div>
+    <div class="row">
+        <div class="col-md-12 mb-4">
+            <form action="{{url_for('insert_recipe')}}" method="POST" name="addCity" id="addCity">
+                <div class="form-group">
+                    <div class="controls">
+                    <i class="fas fa-pencil-alt"></i><label class="form-field-description">City Name</label>
+                    <input class="form-control" id="city_name" name="city_name" type="text" required data-validation-required-message="Please enter a city name." placeholder="e.g. Barcelona" maxlength="100">
+                    </div>
+                </div>            
+                <div class="form-group">
+                    <div class="controls">
+                    <i class="far fa-images"></i><label class="form-field-description">City Image</label>
+                    <input class="form-control" id="image_link" name="image_link" type="url" pattern="https://.*" required data-validation-required-message="Please enter a valid link to the city image." placeholder="Paste link to city image here">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="controls">
+                    <i class="fas fa-info"></i><label class="form-field-description">City Description</label>
+                    <input type="text" class="form-control" id="description" name="description" required data-validation-required-message="Please enter a short city description." placeholder="Please enter a short city description" maxlength="1000">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="controls">
+                    <i class="fas fa-list-ul"></i><label class="form-field-description">Things to Do</label>
+                    <textarea class="form-control" id="attractions" name="attractions" rows="5" maxlength="3000">Enter attractions to see here (Separate each thing to do on a new line by hitting the enter key after each individual attraction)</textarea>
+                    </div>
+                </div>            
+                <div class="form-group">
+                    <div class="controls">
+                    <i class="fas fa-clipboard-list"></i><label class="form-field-description">Places to Stay</label>
+                    <textarea class="form-control" id="places-to-stay" name="places-to-stay" rows="5" maxlength="3000">Enter places to stay here (Separate each place to stay on a new line by hitting the enter key after individual place to stay)</textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-success" id="sendMessageButton">Submit City</button>
+                <a class="btn btn-success" href="{{url_for('home')}}">Cancel</a>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
