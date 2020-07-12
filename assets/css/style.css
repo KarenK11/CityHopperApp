@@ -1,3 +1,38 @@
+/*-------------------------------------Navbar */
+
+.navbar,
+.dropdown-item {
+    background-color: #ee693f;
+}
+
+.navbar {
+    border-bottom: 2px solid #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-brand {
+    font-family: "Sriracha", sans-serif;
+    font-size: 1.7em;
+}
+
+.nav-item a {
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+}
+
+.dropdown-menu {
+    padding: 0px;
+    border: #b5b5b5;
+    box-shadow: 0.5em 0.5em 1.5em #333333;
+}
+
+.dropdown-menu a {
+    color: #fff;
+}
+
 /*-------------------------------------Heading */
 
 .head-style {
