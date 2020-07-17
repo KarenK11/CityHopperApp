@@ -7,3 +7,5 @@ from bson.objectid import ObjectId
 from os import path
 if path.exists("env.py"):
     import env
+
+app = Flask(_name_)
